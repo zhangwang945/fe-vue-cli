@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-babel-lanyi",
-  "version": "4.5.13",
+  "version": "0.0.2",
   "description": "babel plugin for vue-cli",
   "main": "index.js",
   "repository": {
