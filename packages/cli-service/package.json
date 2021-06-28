@@ -1,6 +1,6 @@
 {
   "name": "@lanyi/vue-cli-service",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "local service for vue-cli projects",
   "main": "lib/Service.js",
   "typings": "types/index.d.ts",
@@ -38,8 +38,8 @@
     "@vue/web-component-wrapper": "^1.2.0",
     "acorn": "^7.4.0",
     "acorn-walk": "^7.1.1",
-    "address": "^1.1.2",
     "add-asset-html-webpack-plugin": "^3.2.0",
+    "address": "^1.1.2",
     "autoprefixer": "^9.8.6",
     "browserslist": "^4.12.0",
     "cache-loader": "^4.1.0",
