@@ -13,7 +13,7 @@
     "cli",
     "eslint"
   ],
-  "author": "Evan You",
+  "author": "zhangwang945",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vuejs/vue-cli/issues"

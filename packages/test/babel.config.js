@@ -1,5 +1,3 @@
 module.exports = {
-  presets: [
-    'vue-cli-plugin-babel-lanyi/preset'
-  ]
+	presets: ["vue-cli-plugin-babel-lanyi/preset"],
 }

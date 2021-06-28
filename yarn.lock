@@ -11065,6 +11065,27 @@ vm-browserify@^1.0.1:
   resolved "http://npm.corp.lanyicj.cn:7000/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+vue-cli-plugin-babel-lanyi@^4.5.13:
+  version "0.0.2"
+  dependencies:
+    "@babel/core" "^7.11.0"
+    "@vue/babel-preset-app" "^4.5.13"
+    "@vue/cli-shared-utils" "^4.5.13"
+    babel-loader "^8.1.0"
+    cache-loader "^4.1.0"
+    thread-loader "^2.1.3"
+    webpack "^4.0.0"
+
+vue-cli-plugin-eslint-lanyi@^4.5.13:
+  version "0.0.2"
+  dependencies:
+    "@vue/cli-shared-utils" "^4.5.13"
+    eslint-loader "^2.2.1"
+    globby "^9.2.0"
+    inquirer "^7.1.0"
+    webpack "^4.0.0"
+    yorkie "^2.0.0"
+
 vue-eslint-parser@^7.0.0:
   version "7.6.0"
   resolved "http://npm.corp.lanyicj.cn:7000/vue-eslint-parser/-/vue-eslint-parser-7.6.0.tgz#01ea1a2932f581ff244336565d712801f8f72561"
