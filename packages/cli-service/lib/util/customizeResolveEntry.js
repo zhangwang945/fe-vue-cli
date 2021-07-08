@@ -6,6 +6,7 @@
  */
 module.exports = function customizeResolveEntry (context = '', entry = '') {
   const hasExtensionName = /\.[a-z]+$/.test(entry)
+  const fs = require('fs')
   if (entry && !hasExtensionName) {
     const possibleEntrys = [
       '.js',
@@ -14,13 +15,18 @@ module.exports = function customizeResolveEntry (context = '', entry = '') {
       '/index.ts',
       `/src/pages/${entry}`
     ]
-    const fs = require('fs')
     for (const possibleEntry of possibleEntrys) {
       const file = context + possibleEntry
       if (fs.existsSync(file)) {
         entry = file
         break
       }
+    }
+  }
+  if (!entry) {
+    const file = context + '/src/index.js'
+    if (fs.existsSync(file)) {
+      entry = file
     }
   }
   return entry
