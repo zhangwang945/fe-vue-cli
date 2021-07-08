@@ -100,13 +100,13 @@ module.exports = (api, options) => {
 
     // entry arg
     const entry = args._[0]
-    if (entry) {
-      const customizeResolveEntry = require('../util/customizeResolveEntry')
-      webpackConfig.entry = {
-        app: customizeResolveEntry(api.service.context, entry) // 自定义解析入口
-        // app: api.resolve(entry)
-      }
+    // if (entry) {
+    const customizeResolveEntry = require('../util/customizeResolveEntry')
+    webpackConfig.entry = {
+      app: customizeResolveEntry(api.service.context, entry) // 自定义解析入口
+      // app: api.resolve(entry)
     }
+    // }
 
     // resolve server options
     const useHttps = args.https || projectDevServerOptions.https || defaults.https
