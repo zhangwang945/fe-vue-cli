@@ -1,6 +1,6 @@
 {
   "name": "tt",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "scripts": {
     "serve": "lanyi-vue-cli-service serve",
@@ -14,12 +14,12 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@lanyi/vue-cli-service": "^0.0.3",
+    "@lanyi/vue-cli-service": "^0.0.4",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-cli-plugin-babel-lanyi": "^0.0.3",
-    "vue-cli-plugin-eslint-lanyi": "^0.0.3",
+    "vue-cli-plugin-babel-lanyi": "^0.0.4",
+    "vue-cli-plugin-eslint-lanyi": "^0.0.4",
     "vue-template-compiler": "^2.6.11"
   },
   "dllDependencies": {
